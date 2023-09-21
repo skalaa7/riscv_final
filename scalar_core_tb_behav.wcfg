@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="scalar_core_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="scalar_core_tb" />
+            <top_module name="txt_util" />
+            <top_module name="util_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="19000000fs"></ZoomStartTime>
+      <ZoomEndTime time="20200001fs"></ZoomEndTime>
+      <Cursor1Time time="20000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="156"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="66" />
+   <wvobject fp_name="/scalar_core_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/ce" type="logic">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/instr_ready_s" type="logic">
+      <obj_property name="ElementShortName">instr_ready_s</obj_property>
+      <obj_property name="ObjectShortName">instr_ready_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/data_ready_s" type="logic">
+      <obj_property name="ElementShortName">data_ready_s</obj_property>
+      <obj_property name="ObjectShortName">data_ready_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/fencei_s" type="logic">
+      <obj_property name="ElementShortName">fencei_s</obj_property>
+      <obj_property name="ObjectShortName">fencei_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/pc_reg_s" type="logic">
+      <obj_property name="ElementShortName">pc_reg_s</obj_property>
+      <obj_property name="ObjectShortName">pc_reg_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/ena_instr_s" type="logic">
+      <obj_property name="ElementShortName">ena_instr_s</obj_property>
+      <obj_property name="ObjectShortName">ena_instr_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/enb_instr_s" type="logic">
+      <obj_property name="ElementShortName">enb_instr_s</obj_property>
+      <obj_property name="ObjectShortName">enb_instr_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/wea_instr_s" type="array">
+      <obj_property name="ElementShortName">wea_instr_s[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wea_instr_s[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/web_instr_s" type="array">
+      <obj_property name="ElementShortName">web_instr_s[3:0]</obj_property>
+      <obj_property name="ObjectShortName">web_instr_s[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/addra_instr_s" type="array">
+      <obj_property name="ElementShortName">addra_instr_s[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addra_instr_s[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/addrb_instr_s" type="array">
+      <obj_property name="ElementShortName">addrb_instr_s[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb_instr_s[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/dina_instr_s" type="array">
+      <obj_property name="ElementShortName">dina_instr_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dina_instr_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/dinb_instr_s" type="array">
+      <obj_property name="ElementShortName">dinb_instr_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dinb_instr_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/douta_instr_s" type="array">
+      <obj_property name="ElementShortName">douta_instr_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">douta_instr_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/doutb_instr_s" type="array">
+      <obj_property name="ElementShortName">doutb_instr_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb_instr_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/addrb_instr_32_s" type="array">
+      <obj_property name="ElementShortName">addrb_instr_32_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb_instr_32_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/ena_data_s" type="logic">
+      <obj_property name="ElementShortName">ena_data_s</obj_property>
+      <obj_property name="ObjectShortName">ena_data_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/enb_data_s" type="logic">
+      <obj_property name="ElementShortName">enb_data_s</obj_property>
+      <obj_property name="ObjectShortName">enb_data_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/rea_data_s" type="logic">
+      <obj_property name="ElementShortName">rea_data_s</obj_property>
+      <obj_property name="ObjectShortName">rea_data_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/wea_data_s" type="array">
+      <obj_property name="ElementShortName">wea_data_s[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wea_data_s[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/web_data_s" type="array">
+      <obj_property name="ElementShortName">web_data_s[3:0]</obj_property>
+      <obj_property name="ObjectShortName">web_data_s[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/addra_data_s" type="array">
+      <obj_property name="ElementShortName">addra_data_s[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addra_data_s[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/addrb_data_s" type="array">
+      <obj_property name="ElementShortName">addrb_data_s[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb_data_s[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/dina_data_s" type="array">
+      <obj_property name="ElementShortName">dina_data_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dina_data_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/dinb_data_s" type="array">
+      <obj_property name="ElementShortName">dinb_data_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dinb_data_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/douta_data_s" type="array">
+      <obj_property name="ElementShortName">douta_data_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">douta_data_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/doutb_data_s" type="array">
+      <obj_property name="ElementShortName">doutb_data_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb_data_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/addra_data_32_s" type="array">
+      <obj_property name="ElementShortName">addra_data_32_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addra_data_32_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/all_v_stores_executed_s" type="logic">
+      <obj_property name="ElementShortName">all_v_stores_executed_s</obj_property>
+      <obj_property name="ObjectShortName">all_v_stores_executed_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/all_v_loads_executed_s" type="logic">
+      <obj_property name="ElementShortName">all_v_loads_executed_s</obj_property>
+      <obj_property name="ObjectShortName">all_v_loads_executed_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/vector_stall_s" type="logic">
+      <obj_property name="ElementShortName">vector_stall_s</obj_property>
+      <obj_property name="ObjectShortName">vector_stall_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/scalar_load_req_s" type="logic">
+      <obj_property name="ElementShortName">scalar_load_req_s</obj_property>
+      <obj_property name="ObjectShortName">scalar_load_req_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/scalar_store_req_s" type="logic">
+      <obj_property name="ElementShortName">scalar_store_req_s</obj_property>
+      <obj_property name="ObjectShortName">scalar_store_req_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/v_instruction_s" type="array">
+      <obj_property name="ElementShortName">v_instruction_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">v_instruction_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/rs1_s" type="array">
+      <obj_property name="ElementShortName">rs1_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/rs2_s" type="array">
+      <obj_property name="ElementShortName">rs2_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/a_i" type="array">
+      <obj_property name="ElementShortName">a_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/b_i" type="array">
+      <obj_property name="ElementShortName">b_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/res_o" type="array">
+      <obj_property name="ElementShortName">res_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">res_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/inst_mul/a_in" type="array">
+      <obj_property name="ElementShortName">a_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/inst_mul/b_in" type="array">
+      <obj_property name="ElementShortName">b_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/inst_mul/c_out" type="array">
+      <obj_property name="ElementShortName">c_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">c_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/inst_mul/con_s" type="array">
+      <obj_property name="ElementShortName">con_s[1:0]</obj_property>
+      <obj_property name="ObjectShortName">con_s[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/inst_mul/stall_status" type="logic">
+      <obj_property name="ElementShortName">stall_status</obj_property>
+      <obj_property name="ObjectShortName">stall_status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/inst_mul/start_status" type="logic">
+      <obj_property name="ElementShortName">start_status</obj_property>
+      <obj_property name="ObjectShortName">start_status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/inst_mul/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/inst_mul/state_next" type="other">
+      <obj_property name="ElementShortName">state_next</obj_property>
+      <obj_property name="ObjectShortName">state_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/inst_div_s/dividend_i" type="array">
+      <obj_property name="ElementShortName">dividend_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dividend_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/inst_div_s/divisor_i" type="array">
+      <obj_property name="ElementShortName">divisor_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">divisor_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/inst_div_s/quotient_s" type="array">
+      <obj_property name="ElementShortName">quotient_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">quotient_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/inst_div_s/quotient_o" type="array">
+      <obj_property name="ElementShortName">quotient_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">quotient_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/inst_div_s/remainder_o" type="array">
+      <obj_property name="ElementShortName">remainder_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">remainder_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/inst_div_s/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/inst_div_s/state_next" type="other">
+      <obj_property name="ElementShortName">state_next</obj_property>
+      <obj_property name="ObjectShortName">state_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/inst_div_s/SorU" type="logic">
+      <obj_property name="ElementShortName">SorU</obj_property>
+      <obj_property name="ObjectShortName">SorU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/inst_div_s/cnt_clk" type="array">
+      <obj_property name="ElementShortName">cnt_clk[6:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_clk[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/inst_div_s/stall_o" type="logic">
+      <obj_property name="ElementShortName">stall_o</obj_property>
+      <obj_property name="ObjectShortName">stall_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/inst_div_s/quotient_s" type="array">
+      <obj_property name="ElementShortName">quotient_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">quotient_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/inst_div_s/start_i" type="logic">
+      <obj_property name="ElementShortName">start_i</obj_property>
+      <obj_property name="ObjectShortName">start_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/mul_res" type="array">
+      <obj_property name="ElementShortName">mul_res[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_res[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/div_res" type="array">
+      <obj_property name="ElementShortName">div_res[31:0]</obj_property>
+      <obj_property name="ObjectShortName">div_res[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/rem_res" type="array">
+      <obj_property name="ElementShortName">rem_res[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rem_res[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/op_i" type="other">
+      <obj_property name="ElementShortName">op_i</obj_property>
+      <obj_property name="ObjectShortName">op_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scalar_core_tb/TOP_RISCV_1/data_path_1/ALU_1/res_o" type="array">
+      <obj_property name="ElementShortName">res_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">res_o[31:0]</obj_property>
+   </wvobject>
+</wave_config>

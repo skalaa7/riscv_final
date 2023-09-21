@@ -1,0 +1,23 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../riscv_final.srcs/sources_1/imports/sources_1/imports/hdl/packages/util_pkg.vhd" \
+"../../../../riscv_final.srcs/sources_1/imports/sources_1/imports/hdl/riscv-v/scalar_core/rtl/ALU.vhd" \
+"../../../../riscv_final.srcs/sim_1/imports/sim_1/imports/new/BRAM_byte_addressable.vhd" \
+"../../../../riscv_final.srcs/sources_1/imports/sources_1/imports/hdl/riscv-v/scalar_core/rtl/register_bank.vhd" \
+"../../../../riscv_final.srcs/sources_1/imports/sources_1/imports/hdl/riscv-v/scalar_core/rtl/immediate.vhd" \
+"../../../../riscv_final.srcs/sources_1/imports/sources_1/imports/hdl/riscv-v/scalar_core/rtl/data_path.vhd" \
+"../../../../riscv_final.srcs/sources_1/imports/sources_1/imports/hdl/riscv-v/scalar_core/rtl/ctrl_decoder.vhd" \
+"../../../../riscv_final.srcs/sources_1/imports/sources_1/imports/hdl/riscv-v/scalar_core/rtl/alu_decoder.vhd" \
+"../../../../riscv_final.srcs/sources_1/imports/sources_1/imports/hdl/riscv-v/scalar_core/rtl/forwarding_unit.vhd" \
+"../../../../riscv_final.srcs/sources_1/imports/sources_1/imports/hdl/riscv-v/scalar_core/rtl/hazard_unit.vhd" \
+"../../../../riscv_final.srcs/sources_1/imports/sources_1/imports/hdl/riscv-v/scalar_core/rtl/control_path.vhd" \
+"../../../../riscv_final.srcs/sources_1/imports/sources_1/imports/hdl/riscv-v/scalar_core/rtl/TOP_RISCV.vhd" \
+"../../../../riscv_final.srcs/sources_1/new/division_u.vhd" \
+"../../../../riscv_final.srcs/sources_1/new/multiply.vhd" \
+"../../../../riscv_final.srcs/sim_1/imports/sim_1/imports/new/txt_util.vhd" \
+"../../../../riscv_final.srcs/sim_1/imports/sim_1/new/txt_util.vhd" \
+"../../../../riscv_final.srcs/sources_1/imports/sources_1/imports/hdl/packages/txt_util.vhd" \
+"../../../../riscv_final.srcs/sim_1/imports/sim_1/new/scalar_core_tb.vhd" \
+
+# Do not sort compile order
+nosort
