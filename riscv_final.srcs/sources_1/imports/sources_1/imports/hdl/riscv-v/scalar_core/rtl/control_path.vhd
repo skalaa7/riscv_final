@@ -182,8 +182,8 @@ begin
   id_ex : process (clk) is
   begin
     if (rising_edge(clk)) then
-      if (reset = '0' or ((control_pass_s = '0' or id_ex_flush_s = '1') and data_ready_i = '1' and instr_ready_i = '1' --and
-                          --(vector_stall_i = '0' or (vector_stall_i = '1' and vector_instr_ex_s = '0'))
+      if (reset = '0' or (( id_ex_flush_s = '1') and data_ready_i = '1' and instr_ready_i = '1' --and
+                          --control_pass_s = '0' or (vector_stall_i = '0' or (vector_stall_i = '1' and vector_instr_ex_s = '0'))
                           ))then
         branch_type_ex_s    <= (others => '0');
         funct3_ex_s         <= (others => '0');
@@ -201,7 +201,7 @@ begin
         scalar_load_req_ex  <= '0';
         scalar_store_req_ex <= '0';
         --vector_instr_ex_s   <= '0';
-      elsif(data_ready_i = '1' and instr_ready_i = '1' and ce = '1' 
+      elsif(data_ready_i = '1' and instr_ready_i = '1' and ce = '1' and if_id_en_s = '1' 
             -- and (vector_stall_i = '0' or (vector_stall_i = '1' and vector_instr_ex_s = '0'))
             ) then
         branch_type_ex_s    <= branch_type_id_s;

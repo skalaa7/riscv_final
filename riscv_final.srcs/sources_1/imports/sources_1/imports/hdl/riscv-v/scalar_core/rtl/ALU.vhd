@@ -171,50 +171,50 @@ BEGIN
       --remu_res when remu_op, -- reminder signed
       --rems_res when rems_op, -- reminder signed
       (others => '1') when others; 
-    
+    stall_o<= stall or ready_s;
       process(op_i, stall, ready_s)
     begin
         start <= '0';
         valid_s <= '0';
-        stall_o <= '1';
+        --stall_o <= '1';
         SorU    <= '0';
         con_s <= "00";
         case op_i is
             when mulu_op => 
                 start <= '1';
-                stall_o <= stall;
+                --stall_o <= stall;
                 con_s <= "00";
             when mulhs_op =>
                 start <= '1';
-                stall_o <= stall; 
+                --stall_o <= stall; 
                 con_s <= "00";
             when mulhu_op =>
                 start <= '1';
-                stall_o <= stall;
+                --stall_o <= stall;
                 con_s <= "11";
             when mulhsu_op =>
                 start <= '1';
-                stall_o <= stall;
+                --stall_o <= stall;
                 con_s <= "01";
             when divu_op =>
                 valid_s <= '1';
-                stall_o <= ready_s;
+                --stall_o <= ready_s;
                 SorU    <= '0';
             when divs_op =>
                 valid_s <= '1';
-                stall_o <= ready_s;
+                --stall_o <= ready_s;
                 SorU    <= '1';
             when remu_op =>
                 valid_s <= '1';
-                stall_o <= ready_s;
+                --stall_o <= ready_s;
                 SorU    <= '0';
             when rems_op =>    
                 valid_s <= '1';
-                stall_o <= ready_s;
+                --stall_o <= ready_s;
                 SorU    <= '1';
             when others => 
                 start <= '0';
-                stall_o <= '1';
+                --stall_o <= '1';
                 valid_s <= '0';
         end case;
     end process;

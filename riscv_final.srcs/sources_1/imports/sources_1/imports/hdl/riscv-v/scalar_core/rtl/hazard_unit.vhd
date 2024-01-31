@@ -22,7 +22,8 @@ entity hazard_unit is
         -- control outputs
         pc_en_o          : out std_logic;
         if_id_en_o       : out std_logic;
-        control_pass_o   : out std_logic
+        control_pass_o   : out std_logic;
+        stall_alu_i      : out std_logic
         );
 end entity;
 
@@ -40,9 +41,9 @@ begin
         -- Load in ex.st. 
         -- Its loading the value that is used in the next instruction (id.st.)
         -- => stall the pipeline
-        if(((rs1_address_id_i = rd_address_ex_i and rs1_in_use_i = '1') or stall_i = '0' or
+        if((((rs1_address_id_i = rd_address_ex_i and rs1_in_use_i = '1')  or
             (rs2_address_id_i = rd_address_ex_i and rs2_in_use_i = '1')) and
-           mem_to_reg_ex_i = "10") then
+           mem_to_reg_ex_i = "10") or stall_i = '1') then
             en_s <= '0';
         --elsif ((scalar_load_req_i = '1' and not(all_v_stores_executed_i) = '1') or
         --       (scalar_store_req_i = '1' and (not(all_v_stores_executed_i) = '1' or not(all_v_loads_executed_i ) = '1'))) then 

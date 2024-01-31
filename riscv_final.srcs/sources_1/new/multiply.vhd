@@ -138,14 +138,16 @@ begin
         case state is
             when start =>
                 if start_status = '1' then
+                    stall_status <= '1';
                     state_next <= work;
                 else 
                     state_next <= start;    
                 end if;
             when work => state_next <= done;
+                stall_status <= '1';
             when done => 
                 state_next <= start;
-                stall_status <= '1'; 
+                 --stall_status <= '1';
             when others => state_next <= state;      
         end case;
     

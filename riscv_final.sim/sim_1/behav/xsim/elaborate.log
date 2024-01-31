@@ -4,4 +4,28 @@ Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto df9acb2c4f
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.txt_util
+Compiling package xil_defaultlib.util_pkg
+Compiling package ieee.math_real
+Compiling architecture behavioral of entity xil_defaultlib.BRAM [bram_default]
+Compiling architecture behavioral of entity xil_defaultlib.register_bank [register_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.immediate [immediate_default]
+Compiling architecture behavioral of entity xil_defaultlib.multiply [multiply_default]
+Compiling architecture behavioral of entity xil_defaultlib.division_u [division_u_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.data_path [data_path_default]
+Compiling architecture behavioral of entity xil_defaultlib.ctrl_decoder [ctrl_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_decoder [alu_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.forwarding_unit [forwarding_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.hazard_unit [hazard_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.control_path [control_path_default]
+Compiling architecture structural of entity xil_defaultlib.scalar_core [scalar_core_default]
+Compiling architecture behavioral of entity xil_defaultlib.scalar_core_tb
+Built simulation snapshot scalar_core_tb_behav

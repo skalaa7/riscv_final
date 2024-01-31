@@ -91,6 +91,7 @@ begin
         case state is
             when start => 
                 if (start_i = '1') then
+                stall_o <= '1';
                     state_next <= work;
                 else
                     state_next <= start;
@@ -118,6 +119,7 @@ begin
                 
                 end if;                
            when work =>
+           stall_o <= '1';
                 if(signed(cnt_clk) = 33) then
                
                     state_next <= done;
@@ -139,6 +141,7 @@ begin
  
                 end if;
            when work2 =>
+           stall_o <= '1';
                 state_next <= work;
                 if (remainder_s(63) = '0') then
                    quotient_next <= quotient_s(30 downto 0) & '1'; 
@@ -154,7 +157,7 @@ begin
                 end if;                 
            when done => 
                 state_next <= start;
-                stall_o <= '1';
+                
            when others =>   
                 state_next <= state;           
         end case;
